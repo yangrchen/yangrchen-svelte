@@ -5,12 +5,17 @@
 <nav class="flex flex-col items-center sticky top-0 p-2">
     <a href={$url("/")} class="text-3xl md:text-5xl">YANG CHEN</a>
     <ul class="flex space-x-4 md:text-2xl">
-        <li class:active={$isActive("/")}>
+        <li
+            class:underline={$isActive("/index")}
+            class="hover:underline decoration-pink-300"
+        >
             <a href={$url("/")}>about</a>
         </li>
         {#each $layout.children as { path, title }}
-            <li class:active={$isActive(path)}>
-                <a href={$url(path)} class="hover:red">{title}</a>
+            <li class:underline={$isActive(path)}>
+                <a href={$url(path)} class="hover:underline decoration-pink-300"
+                    >{title}</a
+                >
             </li>
         {/each}
     </ul>
