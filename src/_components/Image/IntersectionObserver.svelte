@@ -50,6 +50,6 @@
     });
 </script>
 
-<div bind:this={container} class="flex justify-center h-full w-full">
+<div bind:this={container} class="flex justify-center h-full w-50">
     <slot {intersecting} />
 </div>

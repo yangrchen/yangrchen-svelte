@@ -13,7 +13,10 @@
 </div>
 
 <style>
+    @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap");
+
     :global(body) {
         background-color: #f2f2f2;
+        font-family: "Josefin Sans", sans-serif;
     }
 </style>
