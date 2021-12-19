@@ -6,7 +6,7 @@
 </script>
 
 <!-- routify:options preload="proximity" -->
-<div class="flex flex-col mt-10 mx-10 xl:mx-48">
+<div class="flex flex-col mt-10 xl:mx-48">
     <Navbar />
     <slot />
     <footer class="px-5 text-center text-sm md:text-base mt-24 mb-4">
