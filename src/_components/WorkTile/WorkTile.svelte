@@ -7,7 +7,7 @@
     export let href = "";
 </script>
 
-<div class="grid gap-2 grid-cols-2">
+<div class="grid gap-4 grid-cols-2">
     <div>
         <h1 class="font-bold text-xl md:text-3xl">
             {#if href !== ""}
