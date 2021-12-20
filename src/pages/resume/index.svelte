@@ -1,7 +1,7 @@
 <script>
     import WorkTile from "../../_components/WorkTile/WorkTile.svelte";
     import jobs from "../../lib/data/jobs.json";
-    let href = "/public/yangrchen_resume_fall_2021_120521.pdf";
+    let href = "/yangrchen_resume_fall_2021_120521.pdf";
 </script>
 
 <div class="mt-6 md:mt-10">
