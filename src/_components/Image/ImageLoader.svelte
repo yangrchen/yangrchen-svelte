@@ -1,7 +1,7 @@
 <script>
     export let src;
     export let alt;
-    export let className;
+    export let className = "";
     import IntersectionObserver from "./IntersectionObserver.svelte";
     import Image from "./Image.svelte";
     import { onMount } from "svelte";
