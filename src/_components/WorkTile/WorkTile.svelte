@@ -14,13 +14,14 @@
                 <a
                     {href}
                     class="underline decoration-gray-300 hover:decoration-pink-300"
+                    rel="noopener"
                     target="_blank">{company}</a
                 >
             {:else}
                 <p>{company}</p>
             {/if}
         </h1>
-        <h3 class="text-sm md:text-xl">{title}</h3>
+        <h2 class="text-sm md:text-xl">{title}</h2>
         <h3 class="text-sm md:text-xl">{dateString}</h3>
     </div>
     <p class="md:text-xl">{description}</p>
