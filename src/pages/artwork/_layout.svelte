@@ -5,7 +5,6 @@
         ["./digital", "digital art"],
         ["./graphic", "graphic design"],
     ];
-    metatags.title = "Yang Chen";
 </script>
 
 <nav class="pt-2 self-center">
@@ -23,5 +22,6 @@
     </ul>
 </nav>
 <div class="pt-6 grid gap-4 md:grid-cols-2 mx-32">
-    <slot />
+    Coming soon!
+    <!-- <slot /> -->
 </div>

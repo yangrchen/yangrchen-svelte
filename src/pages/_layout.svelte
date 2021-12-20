@@ -2,7 +2,6 @@
     import { metatags } from "@roxi/routify";
 
     import Navbar from "../_components/Navbar.svelte";
-    metatags.title = "Yang Chen";
 </script>
 
 <!-- routify:options preload="proximity" -->

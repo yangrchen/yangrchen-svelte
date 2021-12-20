@@ -3,7 +3,7 @@
     import ImageLoader from "../_components/Image/ImageLoader.svelte";
 
     metatags.description = "Description coming soon...";
-    let src = "images/yang-profile.png";
+    let src = "images/yang-profile.webp";
 </script>
 
 <div
