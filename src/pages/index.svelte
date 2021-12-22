@@ -1,18 +1,18 @@
 <script>
     import { metatags, url } from "@roxi/routify";
     import ImageLoader from "../_components/Image/ImageLoader.svelte";
-
-    let src = "images/yang-profile.webp";
+    let img_props = {
+        srcset: "images/yang-profile.webp?nf_resize=fit&w=1280 1280w, images/yang-profile.webp?nf_resize=fit&w=768 768w, images/yang-profile.webp?nf_resize=fit&w=384 384w",
+        sizes: "(min-width: 1280px) 1280px, (min-width: 768px) 768px, (min-width: 640px) 384px",
+        src: "images/yang-profile.webp",
+        alt: "Portrait of author with boxing gloves on",
+    };
 </script>
 
 <div
     class="flex flex-col space-y-10 lg:space-x-8 md:space-y-0 lg:flex-row mt-12 justify-center items-center"
 >
-    <ImageLoader
-        {src}
-        alt="Portrait of author with boxing gloves on"
-        className="h-96 md:h-[40rem] xl:h-[30rem]"
-    />
+    <ImageLoader {img_props} className="h-96 md:h-[40rem] xl:h-[30rem]" />
     <div
         class="w-5/6 lg:w-2/4 text-l break-words leading-loose md:leading-loose md:text-xl lg:leading-loose lg:text-2xl xl:leading-loose xl:text-xl lg:pt-0 xl:pt-0 space-y-2"
     >
