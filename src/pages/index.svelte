@@ -2,9 +2,9 @@
     import { metatags, url } from "@roxi/routify";
     import ImageLoader from "../_components/Image/ImageLoader.svelte";
     let img_props = {
-        srcset: "images/yang-profile.png?nf_resize=fit&w=856 856w, images/yang-profile.png?nf_resize=fit&w=513 513w, images/yang-profile.png?nf_resize=fit&w=257 257w",
+        srcset: "images/profile/yang-profile-856w.webp 856w, images/profile/yang-profile-513w 513w, images/yang-profile-257w 257w",
         sizes: "(min-width: 1024px) 856px, (min-width: 768px) 513px, 257px",
-        src: "images/yang-profile.png",
+        src: "images/yang-profile-856w.webp",
         alt: "Portrait of author with boxing gloves on",
     };
 </script>
