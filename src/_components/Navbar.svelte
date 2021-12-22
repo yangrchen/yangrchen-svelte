@@ -11,14 +11,19 @@
     <a href={$url("/")} class="text-3xl md:text-5xl">YANG CHEN</a>
     <ul class="flex space-x-4 md:text-2xl">
         {#each routes as [path, name]}
-            <li
-                class:underline={$isActive(path)}
-                class="hover:underline decoration-pink-300"
-            >
+            <li>
                 {#if path == "/artwork"}
-                    <a href={$url(path + "/drawings")}>{name}</a>
+                    <a
+                        class="decoration-pink-300 hover:underline"
+                        class:underline={$isActive(path)}
+                        href={$url(path + "/drawings")}>{name}</a
+                    >
                 {:else}
-                    <a href={$url(path)}>{name}</a>
+                    <a
+                        class="decoration-pink-300 hover:underline"
+                        class:underline={$isActive(path)}
+                        href={$url(path)}>{name}</a
+                    >
                 {/if}
             </li>
         {/each}
