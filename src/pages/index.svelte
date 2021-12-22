@@ -3,7 +3,7 @@
     import ImageLoader from "../_components/Image/ImageLoader.svelte";
     let img_props = {
         srcset: "images/yang-profile.webp?nf_resize=fit&w=856 856w, images/yang-profile.webp?nf_resize=fit&w=513 513w, images/yang-profile.webp?nf_resize=fit&w=257 257w",
-        sizes: "(max-width: 1536px) 856px, (max-width:1024px) 513px, (max-width: 768px) 257px",
+        sizes: "(min-width: 1024px) 856px, (min-width: 768px) 513px, 257px",
         src: "images/yang-profile.webp",
         alt: "Portrait of author with boxing gloves on",
     };
