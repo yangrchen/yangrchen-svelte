@@ -2,8 +2,8 @@
     import { metatags, url } from "@roxi/routify";
     import ImageLoader from "../_components/Image/ImageLoader.svelte";
     let img_props = {
-        srcset: "images/yang-profile.webp?nf_resize=fit&w=1280 1280w, images/yang-profile.webp?nf_resize=fit&w=768 768w, images/yang-profile.webp?nf_resize=fit&w=384 384w",
-        sizes: "(min-width: 1280px) 1280px, (min-width: 768px) 768px, (min-width: 640px) 384px",
+        srcset: "images/yang-profile.webp?nf_resize=fit&w=856 856w, images/yang-profile.webp?nf_resize=fit&w=513 513w, images/yang-profile.webp?nf_resize=fit&w=257 257w",
+        sizes: "(max-width: 1536px) 856px, (max-width:1024px) 513px, (max-width: 768px) 257px",
         src: "images/yang-profile.webp",
         alt: "Portrait of author with boxing gloves on",
     };
