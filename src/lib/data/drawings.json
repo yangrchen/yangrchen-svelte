@@ -1,26 +1,26 @@
 [
     {
-        "data-src": "/images/artwork/a.png",
+        "data-src": "/images/artwork/a.webp",
         "srcset": "",
         "alt": "Drawing of male figure on paper"
     },
     {
-        "data-src": "/images/artwork/b.png",
+        "data-src": "/images/artwork/b.webp",
         "srcset": "",
         "alt": "Drawing of male figure on paper"
     },
     {
-        "data-src": "/images/artwork/c.png",
+        "data-src": "/images/artwork/c.webp",
         "srcset": "",
         "alt": "Drawing of male figure on paper"
     },
     {
-        "data-src": "/images/artwork/d.png",
+        "data-src": "/images/artwork/d.webp",
         "srcset": "",
         "alt": "Drawing of male figure on paper"
     },
     {
-        "data-src": "/images/artwork/e.png",
+        "data-src": "/images/artwork/e.webp",
         "srcset": "",
         "alt": "Drawing of male figure on paper"
     }
