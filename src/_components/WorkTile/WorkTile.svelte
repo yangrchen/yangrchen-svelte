@@ -5,6 +5,7 @@
     export let description;
     export let skills = [];
     export let href = "";
+    let actualDesc = description.join(" / ");
 </script>
 
 <div class="grid gap-4 grid-cols-2">
@@ -24,7 +25,9 @@
         <h2 class="text-sm md:text-xl">{title}</h2>
         <h3 class="text-sm md:text-xl">{dateString}</h3>
     </div>
-    <p class="md:text-xl">{description}</p>
+    <p class="md:text-xl">
+        {actualDesc}
+    </p>
     <div />
     <ul class="flex flex-wrap leading-none space-x-2">
         {#each skills as skill}

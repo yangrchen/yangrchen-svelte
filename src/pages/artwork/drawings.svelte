@@ -1,7 +1,23 @@
 <script>
-    import ImageLoader from "../../_components/Image/ImageLoader.svelte";
-    let src = "../../../public/images/artwork/figure_male.png";
+    import drawings from "../../lib/data/drawings.json";
+    import IntersectionObserverArtImage from "../../_components/IntersectionObserverArtImage.svelte";
 </script>
 
-<ImageLoader {src} alt="test" className="h-96" />
-<ImageLoader {src} alt="test" className="h-96" />
+{#each drawings as img_props}
+    <IntersectionObserverArtImage>
+        <img {...img_props} decoding="sync" />
+    </IntersectionObserverArtImage>
+{/each}
+
+<style>
+    img {
+        min-height: 30vh;
+        width: auto;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 1200ms ease-out;
+    }
+    img.loaded {
+        opacity: 1;
+    }
+</style>

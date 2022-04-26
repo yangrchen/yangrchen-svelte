@@ -1,9 +1,25 @@
 [
     {
+        "company": "Macedon Technologies",
+        "dateString": "Jan 2022 - Present",
+        "title": "Software Consultant",
+        "description": [
+            "consulting with Gordon Food Services to develop enterprise-scale applications in Appian"
+        ],
+        "skills": [
+            "Appian",
+            "Python",
+            "mySQL"
+        ]
+    },
+    {
         "company": "Chapel Hill Cafe Reservation",
         "dateString": "Aug 2021 - Present",
         "title": "Fullstack Developer",
-        "description": "creating a cafe reservation app to serve the Chapel Hill community / leading design and consulting management",
+        "description": [
+            "creating a cafe reservation app to serve the Chapel Hill community",
+            "leading design and consulting management"
+        ],
         "skills": [
             "Flutter SDK",
             "Firebase",
@@ -15,7 +31,10 @@
         "company": "Freelance Development",
         "dateString": "Jun 2021 - Present",
         "title": "Freelance Developer",
-        "description": "collaborating with professional fine artist, Dorian Iten, to make art education awesome / building tools for clients for greater productivity",
+        "description": [
+            "collaborating with professional fine artist, Dorian Iten, to make art education awesome",
+            "building tools for clients for greater productivity"
+        ],
         "skills": [
             "HTML",
             "CSS",
@@ -28,7 +47,10 @@
         "company": "Credit Suisse",
         "dateString": "Jun 2021 - Aug 2021",
         "title": "Summer Technology Analyst",
-        "description": "implementing local interpretability for ML models on banking data / analyzing data to improve business understanding",
+        "description": [
+            "implementing local interpretability for ML models on banking data",
+            "analyzing data to improve business understanding"
+        ],
         "skills": [
             "Python",
             "H2O",
@@ -41,7 +63,10 @@
         "company": "Liberty Mutual Insurance",
         "dateString": "May 2020 - Aug 2020",
         "title": "Software Developer Intern",
-        "description": "developing secure content management APIs / researching performance enhancements to help scale applications",
+        "description": [
+            "developing secure content management APIs",
+            "researching performance enhancements to help scale applications"
+        ],
         "skills": [
             "React",
             "Node.js",
@@ -54,7 +79,9 @@
         "company": "UNC Virtual Reality Group",
         "dateString": "Jun 2019 - Oct 2019",
         "title": "Research Assistant",
-        "description": "researching and combining NLP and augmented reality to help medical patients rehabilitate",
+        "description": [
+            "researching and combining NLP and augmented reality to help medical patients rehabilitate"
+        ],
         "skills": [
             "OpenCV",
             "Unity",

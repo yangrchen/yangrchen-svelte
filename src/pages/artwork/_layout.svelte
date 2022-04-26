@@ -21,7 +21,9 @@
         {/each}
     </ul>
 </nav>
-<p class="self-center mt-8">Coming soon!</p>
-<div class="pt-6 grid gap-4 md:grid-cols-2 mx-24">
-    <!-- <slot /> -->
+<!-- <p class="self-center mt-8">Coming soon!</p> -->
+<div
+    class="mt-6 flex flex-col space-y-6 md:space-y-20 justify-center place-items-center lg:grid lg:gap-y-20 lg:grid-cols-2 2xl:grid-cols-3 lg:space-y-0"
+>
+    <slot />
 </div>
