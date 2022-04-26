@@ -6,10 +6,7 @@
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
                         let img = entry.target;
-
                         img.src = img.dataset.src;
-                        img.classList.add("loaded");
-
                         observer.unobserve(img);
                     }
                 });

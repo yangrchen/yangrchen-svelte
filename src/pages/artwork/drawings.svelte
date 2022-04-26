@@ -1,23 +1,13 @@
 <script>
     import drawings from "../../lib/data/drawings.json";
     import IntersectionObserverArtImage from "../../_components/IntersectionObserverArtImage.svelte";
+    import Image from "../../_components/Image.svelte";
+
+    let imgLoad = () => {};
 </script>
 
-{#each drawings as img_props}
+{#each drawings as imgProps}
     <IntersectionObserverArtImage>
-        <img {...img_props} decoding="async" />
+        <Image {imgProps} />
     </IntersectionObserverArtImage>
 {/each}
-
-<style>
-    img {
-        min-height: 30vh;
-        width: auto;
-        height: 100%;
-        opacity: 0;
-        transition: opacity 1200ms ease-out;
-    }
-    img.loaded {
-        opacity: 1;
-    }
-</style>
