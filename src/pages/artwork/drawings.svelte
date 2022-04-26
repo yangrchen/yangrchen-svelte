@@ -5,7 +5,7 @@
 
 {#each drawings as img_props}
     <IntersectionObserverArtImage>
-        <img {...img_props} decoding="sync" />
+        <img {...img_props} decoding="async" />
     </IntersectionObserverArtImage>
 {/each}
 
